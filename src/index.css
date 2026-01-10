@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* 1. REGISTRO DE MANGO GROTESQUE */
+@font-face {
+  font-family: 'Mango';
+  src: url('./assets/fonts/mango.otf') format('opentype'); 
+  /* Si subiste .ttf cambia 'opentype' por 'truetype' y la extensión a .ttf */
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 2. REGISTRO DE GATTY */
+@font-face {
+  font-family: 'Gatty';
+  src: url('./assets/fonts/gatty.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ESTILOS GLOBALES */
+body {
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+  /* Por defecto usamos una fuente del sistema, pero luego aplicaremos las tuyas */
+  font-family: sans-serif; 
+}
+
+/* CLASES DE UTILIDAD PARA USAR TUS FUENTES */
+.font-mango {
+  font-family: 'Mango', sans-serif;
+}
+
+.font-gatty {
+  font-family: 'Gatty', sans-serif;
+}
