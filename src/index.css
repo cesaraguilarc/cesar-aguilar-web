@@ -7,7 +7,7 @@
   /* Si subiste .ttf cambia 'opentype' por 'truetype' y la extensión a .ttf */
   font-weight: 600;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 
 /* 2. REGISTRO DE GATTY */
@@ -16,7 +16,7 @@
   src: url('./assets/fonts/gatty.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 /* ESTILOS GLOBALES */
