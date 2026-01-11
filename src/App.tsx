@@ -189,7 +189,7 @@ function App() {
         ================================================================== */}
         <div ref={leftBlockRef} className="absolute bottom-[28%] left-[12%] z-30 text-left">
            {/* DISEÑO (Verde) WEB (Blanco) */}
-           <div className="font-gatty leading-none mb-2" style={{ fontSize: '80px', letterSpacing: '0px' }}>
+           <div className="font-gatty leading-none mb-0" style={{ fontSize: '80px', letterSpacing: '0px' }}>
              <span className="text-[#cffe00]">DISEÑO</span> <span className="text-white">WEB</span>
            </div>
            {/* DE IMPACTO */}
@@ -207,7 +207,7 @@ function App() {
         ================================================================== */}
         <div ref={rightBlockRef} className="absolute bottom-[10%] right-[12%] z-30 text-right">
            {/* SOFTWARE (Verde) A MEDIDA (Blanco) */}
-           <div className="font-gatty leading-none mb-2" style={{ fontSize: '80px', letterSpacing: '0px' }}>
+           <div className="font-gatty leading-none mb-0" style={{ fontSize: '80px', letterSpacing: '0px' }}>
              <span className="text-[#cffe00]">SOFTWARE</span> <span className="text-white"> A MEDIDA</span>
            </div>
            {/* EN LA NUBE */}
